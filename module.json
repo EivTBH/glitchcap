@@ -1,5 +1,6 @@
 {
-  "name": "glitchcap",
+  "id": "glitchcap",                       // ✅ Required unique module ID
+  "name": "glitchcap",                    // Display name is fine here too
   "title": "Glitchcap Summoner",
   "description": "Allows summoning Glitchcap with animation and effects via socketlib.",
   "version": "1.0.0",
@@ -14,12 +15,11 @@
       "type": "module"
     },
     {
-      "name": "jb2a_patreon", 
+      "name": "jb2a_patreon",
       "type": "module",
-      "manifest": "https://jb2a.animatedspelleffects.com/manifest.json",
       "optional": true
     }
   ],
-  "manifest": "https://your.domain.com/glitchcap/module.json",
-  "download": "https://your.domain.com/glitchcap.zip"
+  "manifest": "https://raw.githubusercontent.com/EivTBH/glitchcap/main/module.json",
+  "download": "https://github.com/EivTBH/glitchcap/archive/refs/heads/main.zip"
 }
