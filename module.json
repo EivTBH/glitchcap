@@ -1,0 +1,25 @@
+{
+  "name": "glitchcap",
+  "title": "Glitchcap Summoner",
+  "description": "Allows summoning Glitchcap with animation and effects via socketlib.",
+  "version": "1.0.0",
+  "author": "Dan's AI Assistant",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "scripts": ["module.js"],
+  "esmodules": ["socket.js"],
+  "dependencies": [
+    {
+      "name": "socketlib",
+      "type": "module"
+    },
+    {
+      "name": "jb2a_patreon", 
+      "type": "module",
+      "manifest": "https://jb2a.animatedspelleffects.com/manifest.json",
+      "optional": true
+    }
+  ],
+  "manifest": "https://your.domain.com/glitchcap/module.json",
+  "download": "https://your.domain.com/glitchcap.zip"
+}
