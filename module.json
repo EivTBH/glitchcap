@@ -1,6 +1,6 @@
 {
-  "id": "glitchcap",                       // ✅ Required unique module ID
-  "name": "glitchcap",                    // Display name is fine here too
+  "id": "glitchcap",   
+  "name": "glitchcap",                    
   "title": "Glitchcap Summoner",
   "description": "Allows summoning Glitchcap with animation and effects via socketlib.",
   "version": "1.0.0",
